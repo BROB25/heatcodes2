@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 pt-16'>
-      <h2 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-right'>Services</h2>
+      <h2 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-right'>Contact Me!</h2>
       <form className='slide-left' action="https://formcarry.com/s/kH5_-KjRfa" method='POST' encType='multipart/form-data'>
         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
           <div className='flex flex-col'>
