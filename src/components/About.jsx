@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { animateElements, checkSlide } from '../animations.js';
 import { TypeAnimation } from "react-type-animation";
 import {Link} from 'react-scroll'
-import profile from '../assets/propic.png'
+import profile from '../assets/profile.jpeg'
 
 
 const About = () => {
