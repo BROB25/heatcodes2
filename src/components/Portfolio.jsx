@@ -9,8 +9,7 @@ const Portfolio = () => {
         <img className='w-full h-full object-cover' src={http} alt="" />
         <div className='absolute inset-0 bg-black opacity-80'></div>
         <div className='absolute inset-0 flex flex-col justify-center items-center text-white'>
-          <h3 className='text-4xl sm:text-5xl text-gray-400 font-bold pt-16 mb-4'>Portfolio</h3>
-          <p className='text-sm md:text-base'><FaArrowDown className='inline-block text-red-700' /> View some of my latest projects <FaArrowDown className='inline-block text-red-700' /></p>
+        <h2 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-right'>Services</h2>          <p className='text-sm md:text-base'><FaArrowDown className='inline-block text-red-700' /> View some of my latest projects <FaArrowDown className='inline-block text-red-700' /></p>
         </div>
       </div>
     </div>

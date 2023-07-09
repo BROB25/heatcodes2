@@ -17,7 +17,7 @@ const Services = () => {
 
   return (
     <div id='services' className='my-12'>
-      <h2 className='flex justify-center text-4xl sm:text-5xl font-bold text-gray-400 mt-12 mb-4 slide-right'>Services</h2>
+      <h2 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-right'>Services</h2>
       <p className='text-sm text-stone-200 flex justify-center items-center mb-4 slide-left'>Professional Responsive Websites start as low as&nbsp;<span className='text-base fw-bold text-red-700'>$300</span> </p>
       <div className='grid md:grid-cols-3 gap-4 px-8 mt-12'>
         {/* Cards */}
