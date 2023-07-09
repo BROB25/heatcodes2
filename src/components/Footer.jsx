@@ -13,7 +13,7 @@ const Footer = () => {
           <p className='inline-block pl-2 text-xs sm:text-sm'>bbrenterprise25@gmail.com</p>
         </a>
       </div>
-      <p className='text-xs sm:text-sm'>Copyright © 2023 Brandon Roberts</p>
+      <p className='text-xs sm:text-sm'>© 2023 Brandon Roberts</p>
       
     </div>
   )

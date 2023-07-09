@@ -1,15 +1,24 @@
 import { useState } from 'react'
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs'
+import logo1 from '../assets/elitecontracting.png'
+import logo2 from '../assets/elite.png'
+import logo3 from '../assets/travel-site.png'
+import logo4 from '../assets/project.png'
+import logo5 from '../assets/gallery.png'
+import logo6 from '../assets/beats.png'
+import logo7 from '../assets/beatsbytay.png'
+import logo8 from '../assets/prime.png'
+
 
 const slideImages = [
-  <img src="/src/assets/elitecontracting.png" alt="" />,
-  <img src="/src/assets/elite.png" alt="" />,
-  <img src="/src/assets/travel-site.png" alt="" />,
-  <img src="/src/assets/project.png" alt="" />,
-  <img src="/src/assets/gallery.png" alt="" />, 
-  <img src="/src/assets/beats.png" alt="" />, 
-  <img src="/src/assets/beatsbytay.png" alt="" />, 
-  <img src="/src/assets/prime.png" alt="" />, 
+  <img src={logo1} alt="" />,
+  <img src={logo2} alt="" />,
+  <img src={logo3} alt="" />,
+  <img src={logo4} alt="" />,
+  <img src={logo5} alt="" />,
+  <img src={logo6} alt="" />,
+  <img src={logo7} alt="" />,
+  <img src={logo8} alt="" />,
 ]
 
 export default function Carousel() {

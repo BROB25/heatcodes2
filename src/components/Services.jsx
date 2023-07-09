@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { animateElements, checkSlide } from '../animations.js';
 import {AiFillFire} from 'react-icons/ai'
 import { Link } from 'react-scroll';
+import fire from '../assets/fire.jpg'
 
 const Services = () => {
 
@@ -23,7 +24,7 @@ const Services = () => {
         <div className='border border-4 border-gray-800 h-[600px] group relative slide-down'>
           {/* Dim Overlay */}
           <div className='absolute inset-0 bg-black opacity-80'></div>
-          <img className='w-full h-full overflow-hidden object-cover' src="https://images.pexels.com/photos/9667105/pexels-photo-9667105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
             <h3 className='flex text-orange-700 text-2xl font-bold my-4 mr-4'>Web Design</h3>
@@ -41,7 +42,7 @@ const Services = () => {
         <div className='border border-4 border-gray-800 h-[600px] group relative slide-down'>
           {/* Dim Overlay */}
           <div className='absolute inset-0 bg-black opacity-80'></div>
-          <img className='w-full h-full overflow-hidden object-cover' src="https://images.pexels.com/photos/9667105/pexels-photo-9667105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
             <h3 className='flex text-orange-700 text-2xl font-bold my-4 mr-4'>App Creation</h3>
@@ -59,7 +60,7 @@ const Services = () => {
         <div className='border border-4 border-gray-800 h-[600px] group relative slide-down'>
           {/* Dim Overlay */}
           <div className='absolute inset-0 bg-black opacity-80'></div>
-          <img className='w-full h-full overflow-hidden object-cover' src="https://images.pexels.com/photos/9667105/pexels-photo-9667105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
             <h3 className='flex text-orange-700 text-2xl font-bold my-4 mr-4'>Innovation</h3>
