@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs'
-import logo1 from '../assets/elitecontracting.png'
-import logo2 from '../assets/elite.png'
-import logo3 from '../assets/travel-site.png'
-import logo4 from '../assets/project.png'
-import logo5 from '../assets/gallery.png'
-import logo6 from '../assets/beats.png'
-import logo7 from '../assets/beatsbytay.png'
-import logo8 from '../assets/prime.png'
+import logo1 from '../assets/elite1.jpg'
+import logo2 from '../assets/elite2.jpg'
+import logo3 from '../assets/travel.jpg'
+import logo4 from '../assets/picselatehome.jpg'
+import logo5 from '../assets/gallery.jpg'
+import logo6 from '../assets/prime.jpg'
+import logo7 from '../assets/tay1.jpg'
+import logo8 from '../assets/tay2.jpg'
 
 
 const slideImages = [
@@ -35,10 +35,10 @@ export default function Carousel() {
         {slideImages}
       </div>
       <div className='absolute inset-0 flex items-center justify-between p-4'>
-        <a onClick={prev} className='p-1 rounded-full text-slate-500 bg-slate-700 hover:scale-110 transition-all ease-in-out duration-300'>
+        <a onClick={prev} className='p-1 rounded-full text-gray-100 bg-red-700 hover:scale-110 transition-all ease-in-out duration-300'>
           <BsFillArrowLeftCircleFill size={20} />
         </a>
-        <a onClick={next} className='p-1 rounded-full text-slate-500 bg-slate-700 hover:scale-110 transition-all ease-in-out duration-300'>
+        <a onClick={next} className='p-1 rounded-full text-gray-100 bg-red-700 hover:scale-110 transition-all ease-in-out duration-300'>
           <BsFillArrowRightCircleFill size ={20} />
         </a>
       </div>
