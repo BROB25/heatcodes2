@@ -13,10 +13,11 @@ import './animations'
 
 function App() {
   const [count, setCount] = useState(0)
+  const bodyStyle = { overflowX: 'hidden' };
 
   return (
     <>
-      <div>
+      <div style={bodyStyle}>
         <Navbar />
         <Home />
         <About />
