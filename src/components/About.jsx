@@ -21,8 +21,8 @@ const About = () => {
       <div className="flex-1">
         <img className='w-full h-full mx-auto' src={red} alt="" />
       </div>
-      <div className="flex-1 justify-center px-6">
-        <div className='max-w-[700px] mx-auto h-full flex flex-col justify-center'>
+      <div className="flex-1 justify-center">
+        <div className='mx-auto h-full flex flex-col justify-center'>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-400 slide-down">
             Brandon Roberts
           </h1>

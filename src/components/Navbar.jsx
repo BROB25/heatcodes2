@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='absolute w-full flex justify-between p-4 items-center'>
+    <div className='absolute w-full flex justify-between items-center'>
       <div className="fixed z-30 top-2 left-2">
         {nav ? (
           <IoMdClose onClick={handleNav} className='z-20 cursor-pointer text-red-600' size={35} />
