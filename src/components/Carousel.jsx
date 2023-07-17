@@ -35,11 +35,11 @@ export default function Carousel() {
         {slideImages}
       </div>
       <div className='absolute inset-0 flex items-center justify-between p-4'>
-        <a onClick={prev} className='p-1 rounded-full text-gray-100 bg-red-700 hover:scale-110 transition-all ease-in-out duration-300'>
-          <BsFillArrowLeftCircleFill size={20} />
+        <a onClick={prev} className='p-1 rounded-full text-gray-300 bg-red-700 hover:scale-110 transition-all ease-in-out duration-300'>
+          <BsFillArrowLeftCircleFill size={15} />
         </a>
-        <a onClick={next} className='p-1 rounded-full text-gray-100 bg-red-700 hover:scale-110 transition-all ease-in-out duration-300'>
-          <BsFillArrowRightCircleFill size ={20} />
+        <a onClick={next} className='p-1 rounded-full text-gray-300 bg-red-700 hover:scale-110 transition-all ease-in-out duration-300'>
+          <BsFillArrowRightCircleFill size ={15} />
         </a>
       </div>
 
