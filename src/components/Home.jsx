@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { animateElements, checkSlide } from '../animations.js';
 import {Link} from 'react-scroll'
-import logo from '../assets/logo3.svg'
+import logo from '../assets/hc.svg'
 
 const Home = () => {
 

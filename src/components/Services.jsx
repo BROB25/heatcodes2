@@ -18,7 +18,7 @@ const Services = () => {
   return (
     <div id='services' className='my-12'>
       <h2 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-right'>Services</h2>
-      <p className='text-sm text-stone-200 flex justify-center items-center mb-4 slide-left'>Professional Responsive Websites start as low as&nbsp;<span className='text-base fw-bold text-red-700'>$300</span> </p>
+      <p className='text-sm text-stone-200 flex justify-center items-center mb-4 slide-left'>Professional Responsive Websites start as low as&nbsp;<span className='text-base fw-bold text-red-600'>$300</span> </p>
       <div className='grid md:grid-cols-3 gap-4 px-8 mt-12'>
         {/* Cards */}
         <div className='border border-4 border-gray-800 h-[600px] group relative slide-down'>
@@ -27,15 +27,15 @@ const Services = () => {
           <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
-            <h3 className='flex text-orange-700 text-2xl font-bold my-4 mr-4'>Web Design</h3>
+            <h3 className='flex text-orange-600 text-2xl font-bold my-4 mr-4'>Web Design</h3>
             <ul className='text-white items-center leading-loose'>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Custom designs tailored to your brand</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Responsive layouts</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Eye-grabbing animations</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Lifelong maintenance and updates</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Custom designs tailored to your brand</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Responsive layouts</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Eye-grabbing animations</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Lifelong maintenance and updates</li>
             </ul>
             <Link to='contact' smooth={true} duration={500}>
-              <button className='p-3 border-4 border-stone-400 bg-red-700 text-xs font-bold'>Request A Quote</button>
+              <button className='p-3 border-2 border-stone-300 bg-red-600 text-xs font-bold'>Request A Quote</button>
             </Link>
           </div>
         </div>
@@ -45,15 +45,15 @@ const Services = () => {
           <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
-            <h3 className='flex text-orange-700 text-2xl font-bold my-4 mr-4'>App Creation</h3>
+            <h3 className='flex text-orange-600 text-2xl font-bold my-4 mr-4'>App Creation</h3>
             <ul className='text-white items-center leading-loose'>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> User-friendly app interface</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Visually captivating designs</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Modern responsive layouts</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Integration with API's</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> User-friendly app interface</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Visually captivating designs</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Modern responsive layouts</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Integration with API's</li>
             </ul>
             <Link to='contact' smooth={true} duration={500}>
-              <button className='p-3 border-4 border-stone-400 bg-red-700 text-xs font-bold'>Request A Quote</button>
+              <button className='p-3 border-2 border-stone-300 bg-red-600 text-xs font-bold'>Request A Quote</button>
             </Link>
           </div>
         </div>
@@ -63,15 +63,15 @@ const Services = () => {
           <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
-            <h3 className='flex text-orange-700 text-2xl font-bold my-4 mr-4'>Innovation</h3>
+            <h3 className='flex text-orange-600 text-2xl font-bold my-4 mr-4'>Innovation</h3>
             <ul className='text-white items-center leading-loose'>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> AI integration and solutions</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Chat bot incorporation</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> Website enhancement consultations</li>
-              <li className='items-center'><AiFillFire className='inline-block text-red-700 items-center' size={23}/> More to come</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> AI integration and solutions</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Chat bot incorporation</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> Website enhancement consultations</li>
+              <li className='items-center'><AiFillFire className='inline-block text-red-600 items-center' size={23}/> More to come</li>
             </ul>
             <Link to='contact' smooth={true} duration={500}>
-              <button className='p-3 border-4 border-stone-400 bg-red-700 text-xs font-bold'>Request A Quote</button>
+              <button className='p-3 border-2 border-stone-300 bg-red-600 text-xs font-bold'>Request A Quote</button>
             </Link>
           </div>
         </div>

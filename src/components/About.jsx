@@ -28,7 +28,7 @@ const About = () => {
           </h1>
           <h2 className="pt-4 text-2xl sm:text-3xl text-gray-100 font-semibold">
             I'm a{" "}
-            <span className="text-red-700">
+            <span className="text-red-600">
             <TypeAnimation
               sequence={[
                 "Web Developer",

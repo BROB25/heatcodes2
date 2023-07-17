@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className='absolute w-full flex justify-between p-4 items-center'>
       <div className="fixed z-30 top-2 left-2">
         {nav ? (
-          <IoMdClose onClick={handleNav} className='z-20 cursor-pointer text-red-700' size={35} />
+          <IoMdClose onClick={handleNav} className='z-20 cursor-pointer text-red-600' size={35} />
         ) : (
           <MdOutlineMenu onClick={handleNav} className='z-20 cursor-pointer text-stone-500' size={35} />
         )}
@@ -40,19 +40,19 @@ const Navbar = () => {
           <li className='font-bold text-lg sm:text-xl p-8 cursor-pointer'><Link to='contact' smooth={true} duration={500} onClick={handleNav}>Contact</Link></li>
           <div className='flex items-center mt-4'>
             <a href="tel:6125849396">
-              <FaPhoneAlt className='mx-3 text-red-700 hover:scale-125 ease-in-out duration-500' size={20} /> 
+              <FaPhoneAlt className='mx-3 text-red-600 hover:scale-125 ease-in-out duration-500' size={20} /> 
             </a>
             <a href="mailto:bbrenterprise25@gmail.com">
-              <GrMail className='mx-3 text-red-700 hover:scale-125 ease-in-out duration-500' size={20} /> 
+              <GrMail className='mx-3 text-red-600 hover:scale-125 ease-in-out duration-500' size={20} /> 
             </a>
             <a href="https://www.facebook.com/brandon.roberts.96558/" target='_blank'>
-              <FaFacebook className='mx-3 text-red-700 hover:scale-125 ease-in-out duration-500' size={20} /> 
+              <FaFacebook className='mx-3 text-red-600 hover:scale-125 ease-in-out duration-500' size={20} /> 
             </a>
             <a href="https://www.linkedin.com/in/brandonroberts25/" target='_blank'>
-              <BsLinkedin className='mx-3 text-red-700 hover:scale-125 ease-in-out duration-500' size={20} />
+              <BsLinkedin className='mx-3 text-red-600 hover:scale-125 ease-in-out duration-500' size={20} />
             </a>
             <a href="https://www.instagram.com/off.brand.drake/" target='_blank'>
-              <AiOutlineInstagram className='mx-3 text-red-700 hover:scale-125 ease-in-out duration-500' size={25} />
+              <AiOutlineInstagram className='mx-3 text-red-600 hover:scale-125 ease-in-out duration-500' size={25} />
             </a>
           </div>
         </ul>

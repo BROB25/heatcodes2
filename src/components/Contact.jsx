@@ -38,7 +38,7 @@ const Contact = () => {
           <label className='uppercase text-sm py-2 text-gray-200'>Message</label>
           <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' name='message' />
         </div>
-        <button className='bg-red-700 text-gray-200 mt-4 w-full p-4 rounded-lg'>Submit</button>
+        <button className='bg-red-600 text-gray-200 mt-4 w-full p-4 rounded-lg'>Submit</button>
       </form>
     </div>
   )
