@@ -19,7 +19,7 @@ const Services = () => {
     <div id='services' className='my-12'>
       <h2 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-right'>Services</h2>
       <p className='text-sm text-stone-200 flex justify-center items-center mb-4 slide-left'>Professional Responsive Websites start as low as&nbsp;<span className='text-base fw-bold text-red-600'>$300</span> </p>
-      <div className='grid md:grid-cols-3 gap-4 mt-12'>
+      <div className='grid md:grid-cols-3 gap-4 mt-12 px-4'>
         {/* Cards */}
         <div className='border border-4 border-gray-800 h-[600px] group relative slide-down'>
           {/* Dim Overlay */}

@@ -23,10 +23,10 @@ const About = () => {
       </div>
       <div className="flex-1 justify-center">
         <div className='mx-auto h-full flex flex-col justify-center'>
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-400 slide-down">
+          <h1 className="text-4xl sm:text-5xl font-bold text-gray-400 slide-down px-6 md:px-0">
             Brandon Roberts
           </h1>
-          <h2 className="pt-4 text-2xl sm:text-3xl text-gray-100 font-semibold">
+          <h2 className="pt-4 text-2xl sm:text-3xl text-gray-100 font-semibold px-6 md:px-0">
             I'm a{" "}
             <span className="text-red-600">
             <TypeAnimation
@@ -51,8 +51,8 @@ const About = () => {
             />
             </span>
           </h2>
-          <p className='text-white mt-8'>Hi, I'm Brandon Roberts, a 30-year-old father and husband who has a passion for coding and creating. With my primary expertise in front-end languages, as well as experience with other programming languages, I have been able to bridge that alongside my creativity to form Heat Codes. My love for coding has been honed over the years, thanks to my background in IT from my military service and various tech-related careers.</p><br></br>
-          <p className='text-white'>I find joy in designing, and solving problems through coding, and my experience has helped me develop a keen eye for detail and precision. Whether it's designing visually appealing layouts or tackling complex coding obstacles, I'm always up to the challenge.</p>
+          <p className='text-white mt-8 px-6 md:px-0'>Hi, I'm Brandon Roberts, a 30-year-old father and husband who has a passion for coding and creating. With my primary expertise in front-end languages, as well as experience with other programming languages, I have been able to bridge that alongside my creativity to form Heat Codes. My love for coding has been honed over the years, thanks to my background in IT from my military service and various tech-related careers.</p><br></br>
+          <p className='text-white px-6 md:px-0'>I find joy in designing, and solving problems through coding, and my experience has helped me develop a keen eye for detail and precision. Whether it's designing visually appealing layouts or tackling complex coding obstacles, I'm always up to the challenge.</p>
           <Link to='portfolio' smooth={true} duration={500}>
             <div className='flex justify-center items-center w-full slide-left'>
               <button className=''>
