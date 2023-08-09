@@ -7,6 +7,10 @@ body {
   background-color: black;
 }
 
+p {
+  color: #fff;
+}
+
 .slide-up {
   opacity: 0;
   transform: translateY(70px);
