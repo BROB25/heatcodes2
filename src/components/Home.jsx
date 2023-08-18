@@ -40,7 +40,7 @@ const Home = () => {
               <h2 className="text-2xl font-bold text-white text-start">Custom Web Design Services</h2>
               
               <p className="text-gray-400 pt-4 text-start text-xs">
-              By utilizing high-level programming skills, the customization possibilities are endless. I vow to deliver stunning, responsive websites that will leave a lasting first impression. I've helped a handful of small businesses build affordable, optimized sites that connect with their audience and properly represent their brand. At Heat Codes, we collaborate closely with each client to understand their brand, goals, and target users. Then, by carefully curating the web design process, we'll launch your elegant, mobile-friendly website, optimized for organic search and seamlessly showcasing your services to grow your business.
+              By utilizing high-level programming skills, the customization possibilities are endless. At Heat Codes, we deliver stunning, responsive websites that will leave a lasting first impression. We've helped a handful of small businesses build affordable, optimized sites that connect with their audience and properly represent their brand. At Heat Codes, we collaborate closely with each client to understand their brand, goals, and target users. Then, by carefully curating the web design process, we'll launch your elegant, mobile-friendly website, optimized for organic search and seamlessly showcasing your services to grow your business.
               </p>
               <Link to='services' smooth={true} duration={500}>
               <button className='mt-8 hover:scale-110 transition-all duration-300 shadow shadow-gray-500 slide-right'>

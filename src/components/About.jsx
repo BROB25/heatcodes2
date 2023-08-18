@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { animateElements, checkSlide } from '../animations.js';
 import { TypeAnimation } from "react-type-animation";
 import {Link} from 'react-scroll'
-import red from '../assets/red.jpg'
+import profile from '../assets/profile.jpg'
 
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div id='about' className='flex flex-col lg:flex-row my-24 gap-8'>
       <div className="flex-1">
-        <img className='w-full h-full mx-auto' src={red} alt="" />
+        <img className='w-full h-full mx-auto border border-2 p-2' src={profile} alt="" />
       </div>
       <div className="flex-1 justify-center">
         <div className='mx-auto h-full flex flex-col justify-center'>
