@@ -11,14 +11,14 @@ import logo8 from '../assets/tay2.jpg'
 
 
 const slideImages = [
-  <img src={logo1} alt="" />,
-  <img src={logo2} alt="" />,
-  <img src={logo3} alt="" />,
-  <img src={logo4} alt="" />,
-  <img src={logo5} alt="" />,
-  <img src={logo6} alt="" />,
-  <img src={logo7} alt="" />,
-  <img src={logo8} alt="" />,
+  <img src={logo1} alt="local web design company and web design agency project example" />,
+  <img src={logo2} alt="about section by website designers near me" />,
+  <img src={logo3} alt="travel site example created by website design near me" />,
+  <img src={logo4} alt="photography site created using digital marketing services for small businesses" />,
+  <img src={logo5} alt="slideshow of photos created by an seo consulting company of local web designers" />,
+  <img src={logo6} alt="carpet wholesale site programmed by website design companies near me" />,
+  <img src={logo7} alt="DJ site created by a website design company near me" />,
+  <img src={logo8} alt="section of content created by the best website designer for small businesses near me " />,
 ]
 
 export default function Carousel() {
