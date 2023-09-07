@@ -19,14 +19,14 @@ const Services = () => {
     <div id='services' className='my-12'>
       <h2 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-down'>Services</h2>
       <p className='text-sm text-stone-200 flex justify-center items-center mb-4 slide-left'>Professional Responsive Websites start as low as&nbsp;<span className='text-base fw-bold text-red-600'>$300</span> </p>
-      <p className='text-stone-200 flex justify-center items-center text-start mx-auto slide-right max-w-[75%]'>The Ignite package is perfect for startups needing a captivating online presence. With 1-3 strategically designed pages, we'll build 3 sections of engaging content like videos, images, animations, and SEO-optimized copy.
+      <p className='text-stone-200 flex justify-center items-center text-start mx-auto slide-right max-w-[85%]'>The Ignite package is perfect for startups needing a captivating online presence. With 1-3 strategically designed pages, we'll build 3 sections of engaging content like videos, images, animations, and SEO-optimized copy.
       For small businesses seeking more visibility, the Wildfire package delivers enhanced capabilities. Get 1-5 responsive pages showcasing 5 sections of content, ongoing keyword research and SEO optimization, social media advertising assistance, and more. Wildfire empowers your brand's growth.
       The Inferno package offers our most comprehensive web design services for established brands. With 1-10 fully customized pages, we include routine upgrades, a client login portal for easy edits, and priority support access. Backed by our digital marketing agency, Inferno accelerates your business’s online success.
 
 
       </p><br></br>
-      <p className='text-stone-200 flex justify-start items-start text-start mx-auto slide-right max-w-[75%]'>All packages include:</p><br></br>
-      <ul className='flex flex-col justify-start items-start text-start mx-auto slide-right max-w-[75%]'>
+      <p className='text-stone-200 flex justify-start items-start text-start mx-auto slide-right max-w-[85%]'>All packages include:</p><br></br>
+      <ul className='flex flex-col justify-start items-start text-start mx-auto slide-right max-w-[85%]'>
         <li className='text-gray-400 font-bold'>
         - Free lifetime hosting - no hidden monthly fees
         </li>
@@ -40,7 +40,7 @@ const Services = () => {
         - Quick layout changes upon request
         </li>
       </ul>
-      <p className='text-stone-200 flex justify-center items-center text-start mx-auto slide-right max-w-[75%]'><br></br>
+      <p className='text-stone-200 flex justify-center items-center text-start mx-auto slide-right max-w-[85%]'><br></br>
       Partnering with our small business digital marketing agency gives you an exceptional website and so much more. Our custom web design packages fit within any budget while providing a lasting impact. Let's connect to ignite your online presence today!
       </p>
 
