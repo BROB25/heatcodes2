@@ -17,9 +17,9 @@ const About = () => {
   }, []);
 
   return (
-    <div id='about' className='flex flex-col lg:flex-row my-24 gap-8'>
-      <div className="flex-1">
-        <img className='w-full h-full mx-auto border border-2 p-2' src={profile} alt="most professional web designer and freelance web designer near me" />
+    <div id='about' className='flex flex-col lg:flex-row my-24 px-8 gap-8'>
+      <div className="flex-1 shadow shadow-white rounded-2xl">
+        <img className='w-full h-full mx-auto border border-4 rounded-2xl' src={profile} alt="most professional web designer and freelance web designer near me" />
       </div>
       <div className="flex-1 justify-center">
         <div className='mx-auto h-full flex flex-col justify-center'>

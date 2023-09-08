@@ -27,7 +27,7 @@ const Home = () => {
         </Link>
 
         <section className="flex flex-col md:flex-row justify-center">
-          <div className="max-w-sm mx-6 my-8 flex justify-center flex-col items-center border border-2 py-8">
+          <div className="max-w-sm mx-6 my-8 flex justify-center flex-col items-center border border-2 py-8 rounded-lg">
             <img 
               className="rounded-full border-4 p-2"
               src={web1}
@@ -49,7 +49,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="max-w-sm mx-6 my-8 flex justify-center flex-col items-center border border-2 py-8">
+          <div className="max-w-sm mx-6 my-8 flex justify-center flex-col items-center border border-2 py-8 rounded-lg">
             <img 
               className="rounded-full border-4 p-2"
               src={MN}
@@ -70,7 +70,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="max-w-sm mx-6 my-8 flex justify-center flex-col items-center border border-2 py-8">
+          <div className="max-w-sm mx-6 my-8 flex justify-center flex-col items-center border border-2 py-8 rounded-lg">
             <img 
               className="rounded-full border-4 p-2"
               src={code}
