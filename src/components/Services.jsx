@@ -17,8 +17,8 @@ const Services = () => {
 
   return (
     <div id='services' className='my-12'>
-      <h2 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-down'>Services</h2>
-      <p className='text-sm text-stone-200 flex justify-center items-center mb-4 slide-left'>Professional Responsive Websites start as low as&nbsp;<span className='text-base fw-bold text-red-600'>$300</span> </p>
+      <h1 className='flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-down'>Professional&nbsp; <span className='text-orange-600 font-extrabold'>Services</span>&nbsp; For Business Websites</h1>
+      <p className='text-sm text-stone-200 flex justify-center items-center mb-4 slide-left'>Professional Responsive Websites start as low as&nbsp;<span className='text-base fw-extrabold text-red-600'>$300</span> </p>
       <p className='text-stone-200 flex justify-center items-center text-start mx-auto slide-right max-w-[85%]'>The Ignite package is perfect for startups needing a captivating online presence. With 1-3 strategically designed pages, we'll build 3 sections of engaging content like videos, images, animations, and SEO-optimized copy.
       For small businesses seeking more visibility, the Wildfire package delivers enhanced capabilities. Get 1-5 responsive pages showcasing 5 sections of content, ongoing keyword research and SEO optimization, social media advertising assistance, and more. Wildfire empowers your brand's growth.
       The Inferno package offers our most comprehensive web design services for established brands. With 1-10 fully customized pages, we include routine upgrades, a client login portal for easy edits, and priority support access. Backed by our digital marketing agency, Inferno accelerates your business’s online success.
@@ -50,7 +50,7 @@ const Services = () => {
         <div className='border border-4 border-gray-800 h-[600px] group relative slide-down'>
           {/* Dim Overlay */}
           <div className='absolute inset-0 bg-black opacity-80'></div>
-          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
+          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="best business website design and website builder near me" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
             <h3 className='flex text-red-600 text-2xl font-bold my-4 mr-4'>Ignite</h3>
@@ -68,7 +68,7 @@ const Services = () => {
         <div className='border border-8 border-orange-600 h-[600px] group relative slide-down  mt-0 md:-mt-8'>
           {/* Dim Overlay */}
           <div className='absolute inset-0 bg-black opacity-80'></div>
-          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
+          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="top tier web design development services and design companies near me" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
             <h3 className='flex text-red-700 text-2xl font-bold my-4 mr-4'>Wildfire</h3>
@@ -87,7 +87,7 @@ const Services = () => {
         <div className='border border-4 border-gray-800 h-[600px] group relative slide-down'>
           {/* Dim Overlay */}
           <div className='absolute inset-0 bg-black opacity-80'></div>
-          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="" />
+          <img className='w-full h-full overflow-hidden object-cover' src={fire} alt="professional web design services for small business needs and company website design" />
           {/* Overlay Content */}
           <div className='absolute inset-0 flex flex-col justify-center items-center px-2'>
             <h3 className='flex text-red-800 text-2xl font-bold my-4 mr-4'>Inferno</h3>
