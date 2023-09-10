@@ -2,6 +2,10 @@ import React, {useState} from 'react'
 import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
 import { useRef } from 'react';
 import {FaArrowRight, FaArrowLeft} from 'react-icons/fa';
+import dzrentals from '../assets/website_builders_near_me.mp4';
+import beatsbytay from '../assets/best_small_business_websites.mp4';
+import picselate from '../assets/custom_web_design_services.mp4';
+
 
 
 const Carousel2 = () => {
@@ -9,17 +13,17 @@ const Carousel2 = () => {
 
   const slides = [
     {
-      video: 'src/assets/website_builders_near_me.mp4',
+      video: dzrentals,
       text: 'DZ Rentals',
       description: 'I recently had the pleasure of designing a new website for DZ Rentals, a leading rental company based in Minneapolis. As a designer, I strive to create websites that are aesthetically pleasing yet highly functional, enabling users to easily navigate and find information. For this project, I focused on developing an intuitive interface to showcase their extensive inventory of rentals in a visually engaging way. I incorporated subtle animations and bold imagery to highlight the different amenities and features of each rental. The final result is a website that brings their vibrant collection of rentals to life on screen.',
     },
     {
-      video: 'src/assets/best_small_business_websites.mp4',  
+      video: beatsbytay,  
       text: 'Beats By Tay',
       description: 'I had the privilege to collaborate with Beats By Tay, a premier event DJ based in South Dakota, to design a website that reflects his talents. Working closely with Tay, I created a modern, sleek website to showcase his services for weddings, parties, and corporate events. My goal was to craft an engaging yet professional site where current and prospective clients can view his past work, and packages, and get a feel for his brand. Through a polished, user-friendly interface, this new website presents Tay as an experienced, reliable DJ who can provide the perfect soundtrack for any event.',
     },
     {
-      video: 'src/assets/custom_web_design_services.mp4',
+      video: picselate,
       text: 'Picselate',
       description: 'I recently designed an engaging new website for Picselate, a premier real estate photography business serving the Minneapolis area. Working closely with their talented photographer, I created a creative design that effectively displays her artistic eye and stellar portfolio. Vibrant gradient colors and a responsive image carousel showcase listing photos tailored to highlight each property and their unique features. With an emphasis on seamless mobile functionality and an intuitive interface, the website enables real estate clients to easily view their work, understand offered services, and schedule shoots. This project allowed me to blend strong aesthetics with practical business goals to build an impactful platform for the Picselate brand.',
     } 
