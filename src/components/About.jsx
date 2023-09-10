@@ -17,7 +17,7 @@ const About = () => {
   }, []);
 
   return (
-    <div id='about' className='flex flex-col lg:flex-row my-24 px-8 gap-8'>
+    <section id='about' className='flex flex-col lg:flex-row my-24 px-8 gap-8'>
       <div className="flex-1 shadow shadow-white rounded-2xl">
         <img className='w-full h-full mx-auto border border-4 rounded-2xl' src={profile} alt="most professional web designer and freelance web designer near me" />
       </div>
@@ -62,7 +62,7 @@ const About = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

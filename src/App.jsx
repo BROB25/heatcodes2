@@ -5,10 +5,11 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
-import Carousel from './components/Carousel'
+
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './animations'
+import Carousel2 from './components/Carousel2'
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
         <Home />
         <About />
         <Services />
-        <Portfolio />  
-        <Carousel />
+        <Portfolio />
+        <Carousel2 />  
+
         <Contact />
         <Footer />
       </div>

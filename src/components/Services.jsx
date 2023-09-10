@@ -16,8 +16,8 @@ const Services = () => {
   }, []);
 
   return (
-    <div id='services' className='my-12'>
-      <h1 className='flex justify-center text-2xl md:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-down'>Business Website&nbsp; <span className='text-orange-600 font-extrabold'>Services</span></h1>
+    <section id='services' className='my-12 pt-8 pb-8 bg-neutral-900 border-t border-b'>
+      <h1 className='flex justify-center text-2xl md:text-4xl font-bold text-gray-100 mt-12 mb-4 slide-down'>Business Website&nbsp; <span className='text-orange-600 font-extrabold'>Services</span></h1>
       <p className='text-sm text-stone-200 flex justify-center items-center mb-4 slide-left'>Professional Responsive Websites start as low as&nbsp;<span className='text-base fw-extrabold text-red-600'>$300</span> </p>
       <p className='text-stone-200 flex justify-center items-center text-start mx-auto slide-right max-w-[85%]'>The Ignite package is perfect for startups needing a captivating online presence. With 1-3 strategically designed pages, we'll build 3 sections of engaging content like videos, images, animations, and SEO-optimized copy.
       For small businesses seeking more visibility, the Wildfire package delivers enhanced capabilities. Get 1-5 responsive pages showcasing 5 sections of content, ongoing keyword research and SEO optimization, social media advertising assistance, and more. Wildfire empowers your brand's growth.
@@ -103,7 +103,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
